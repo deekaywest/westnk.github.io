@@ -13,7 +13,7 @@
                 *,*:before, *after {box-sizing:inherit;
                 }
             #menu{
-                border:3px solid purple;
+                border:3px solid purple; display:flex; flex-direction: row; align-items: center; flex-wrap:wrap;
                 }
             section{
                 background: #C0C0C0;
@@ -58,13 +58,12 @@
         </style>
     </head>
     <body>
+        <div id="menu">
+        <section class="title">
         <h1>An adventurous explorer who runs the world around her.</h1>
-        <section><nav><ul>
-            <li><a href="my_story.html">About</a></li>
-            <li><a href="West-Resume.html">Resume</a></li>
-        </ul></nav></section>
+        </section>
 
-        <section>
+        <section class="adjs">
             <ul>
                 <li>Creative</li>
                 <li>Intelligent</li>
@@ -77,8 +76,30 @@
             </ul>
         </section>
 
-        <section><img src="media/file-4.jpeg" alt=""><img src="media/file4-2.jpeg" alt=""><img src="media/file5-1.jpeg" alt=""><img src="media/file3-2.jpeg" alt=""><img src="media/file1-2.jpeg" alt=""></section>
+        <section class="pic">
+            <img src="media/file-4.jpeg" alt="crystals">
+        </section>
 
-        <section>inspiration<a href="https://www.youtube.com/">YouTube.com</a></section>
+        <section class="pic">
+            <img src="media/file4-2.jpeg" alt="trapped in my head">
+        </section>
+
+        <section class="pic">
+            <img src="media/file5-1.jpeg" alt="purple sunset">
+        </section>
+
+        <section class="pic">
+            <img src="media/file3-2.jpeg" alt="chill">
+        </section>
+
+        <section class="pic">
+            <img src="media/file1-2.jpeg" alt="purple moon">
+        </section>
+
+        <section class="pic">
+            inspiration<a href="https://www.youtube.com/">YouTube.com</a>
+        </section>
+
+        </div>
     </body>
 </html>   
