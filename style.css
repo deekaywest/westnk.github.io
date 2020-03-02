@@ -1,0 +1,58 @@
+ <meta charset="utf-8">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            html{
+                box-sizing:border-box;
+                }
+                *,*:before, *after {box-sizing:inherit;
+                }
+            #menu{
+                border:3px solid purple; display:flex; flex-direction: row; align-items: center; flex-wrap:wrap;
+                }
+            section{
+                background: #C0C0C0;
+                Margin: 10px
+                Padding: 20px
+                border: 1px dotted purple;
+                width:240px
+                }
+            .title{
+                background color: #C0C0C0;
+                color: purple
+                line-height: 4em;
+                }
+            h1 {
+                color: Purple;
+                font-size: xxx-large;
+                text-align: center
+                font-family: 'Open Sans', sans-serif;
+                background: #C0C0C0;
+                }
+            h2{
+                color: black;
+                font-size: Medium;
+                font-family: 'Open Sans', sans-serif;
+                background: #C0C0C0;
+                }
+            h3{
+                color: black;
+                font-size: Small;
+                font-family: 'Open Sans', sans-serif;
+                background: #C0C0C0;
+                }
+            body{
+                background-color: #C0C0C0;
+                }
+            ul{
+                list-style-type: circle;
+                color: black;
+                font-size: Small;
+                font-family: 'Open Sans', sans-serif;
+                background: #C0C0C0;
+                }
+            img{
+                float:right;
+                margin: 0 12px;
+                }
+        </style>
